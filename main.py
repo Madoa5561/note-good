@@ -27,7 +27,7 @@ def like(url):
     driver.quit()
     count = count + 1
     print(f"success: {count}")
-URL = input("URL:")
+URL = input("記事のURL:")
 num = input("いいね回数:")
 for a in range(int(num)):
     like(URL)
